@@ -33,7 +33,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 专栏的controller.
+ * 专栏的controller，也即“接口层”
+ * 在DDD架构设计中，一个controller就是一个限界上下文，就是一个微服务！！！
+ * 它会对应多个
  *
  * @author lishuang
  * @date 2023-05-13

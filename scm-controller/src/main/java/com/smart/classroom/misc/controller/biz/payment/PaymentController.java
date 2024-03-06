@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * controller.
+ * 支付controller
  *
  * @author lishuang
  * @date 2023-05-17

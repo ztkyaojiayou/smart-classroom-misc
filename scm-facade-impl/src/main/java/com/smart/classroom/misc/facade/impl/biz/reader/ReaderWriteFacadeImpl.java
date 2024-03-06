@@ -25,6 +25,7 @@ public class ReaderWriteFacadeImpl implements ReaderWriteFacade {
     /**
      * 注册一个读者
      */
+    @Override
     public ReaderDTO register(ReaderRegisterRequest request) {
 
         ReaderModel readerModel = readerWriteAppService.register(request.getUsername(), request.getPassword());

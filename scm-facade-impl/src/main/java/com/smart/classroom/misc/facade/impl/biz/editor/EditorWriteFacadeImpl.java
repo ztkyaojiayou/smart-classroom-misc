@@ -25,6 +25,7 @@ public class EditorWriteFacadeImpl implements EditorWriteFacade {
     /**
      * 注册一个读者
      */
+    @Override
     public EditorDTO register(EditorRegisterRequest request) {
 
         EditorModel editorModel = editorWriteAppService.register(request.getUsername(), request.getPassword(),request.getWorkNo());

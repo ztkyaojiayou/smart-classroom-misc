@@ -27,7 +27,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * controller.
+ * 订阅controller
  *
  * @author lishuang
  * @date 2023-05-17
